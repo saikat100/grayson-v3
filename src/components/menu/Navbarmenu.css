@@ -1,0 +1,23 @@
+.header-socials {
+    border-left: 2px solid #000;
+    line-height: 5px !important;
+}
+
+.logo-style{
+    margin-left:130px;
+    font-weight: bolder;
+}
+
+.header__middle__logo > a > h1 {
+    color: #07a8ff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 25px;  
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-style{
+        margin-left:20px;
+        font-weight: bolder;
+    }
+  }

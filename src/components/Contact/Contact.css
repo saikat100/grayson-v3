@@ -1,0 +1,122 @@
+.all-center{
+  align-items: center;
+  justify-content: center;
+}
+.contact-style{
+  margin-top:50px;
+}
+.contact-image{
+  max-width: 250px;
+  border-radius:50%;
+  transform: rotate(20deg);
+}
+.send-icon{
+    margin-left: 5px;
+  }
+  .contactContainer {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(14, 13, 13);
+  }
+  
+  #contact-button {
+    font-size: 1.1rem;
+    padding: 0.5rem .5rem;
+    border-radius: 25px;
+    background: #07a8ff;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+  }
+.contact-info{
+  margin-top:25px;
+  line-height: 100%;
+}
+.contact-info li{
+  padding:10px;
+  margin-top:15px;
+  border: 2px solid #02044a;
+}
+
+.contact-info li:hover{
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+  .contact-socials{
+    margin-top:25px;
+    display: flex;
+  }
+  .contact-social{ 
+    color: #fff !important;
+  } 
+  
+  .contact-social:hover{ 
+    color: #07a8ff !important;
+  } 
+
+  .p-text{
+    text-align: justify;
+    padding-left: 10px;
+    margin-top: 50px;
+  }
+  
+  .contactForm {
+    color:#fff;
+    background-color: #02044a;
+    padding: 20px;
+    margin-bottom:30px;
+    border-radius: 10px;
+  }
+  
+  .contactGroup label {
+    /* color: rgb(0, 0, 0); */
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .contactGroup input,
+  .contactGroup textarea {
+    width: 100%;
+    border: 2px solid #fafafc;
+    background: #fcfcfc;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .contactGroup input:focus,
+  .contactGroup textarea:focus {
+    border: 2px solid #054a8a;
+    outline: 0;
+  }
+ 
+  
+
+  .contactGroup textarea {
+    resize: none;
+    height: 145px;
+  }
+  .contactButton{
+    margin-top: 15px;
+    font-size: 2rem;
+    padding: .8rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#00cbee,#29f2cd);
+    color: #ffff;
+  }
+  .send-icon{
+    /* margin-top:5px; */
+    padding-top: 5px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .contactGroup:last-child {
+      margin-bottom: 20px;
+    }
+  }
